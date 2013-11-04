@@ -1,0 +1,1 @@
+cmd_/home/user/dvr/cryptctl.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.8.0-31-generic/scripts/module-common.lds --build-id  -o /home/user/dvr/cryptctl.ko /home/user/dvr/cryptctl.o /home/user/dvr/cryptctl.mod.o
